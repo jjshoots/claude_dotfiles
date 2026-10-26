@@ -1,0 +1,4 @@
+# Strip machine-local keys from settings.json before it is committed; install.sh
+# defines the filter. autoMode only takes effect in ~/.claude/settings.json, so
+# it stays in the working copy but never reaches the public repo.
+settings.json filter=claude-settings

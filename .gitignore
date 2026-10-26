@@ -1,0 +1,10 @@
+# Allowlist: everything else in ~/.claude is sessions, history, caches and
+# machine state that must never be committed.
+*
+!.gitignore
+!.gitattributes
+!install.sh
+!CLAUDE.md
+!settings.json
+!statusline-command.sh
+!check-token-exfil.sh
